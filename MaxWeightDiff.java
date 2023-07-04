@@ -18,11 +18,11 @@ public class MaxWeightDiff
 		}
 		Arrays.sort(w);
 
-		for(int i = 0; i <= K; i++)
+		for(int i = 0; i < K; i++)
 		{
 			split1 += w[i];
 		}      
-		for(int i = K; i <= N; i++)
+		for(int i = K; i < N; i++)
 		{
 			split2 += w[i];
 		}
